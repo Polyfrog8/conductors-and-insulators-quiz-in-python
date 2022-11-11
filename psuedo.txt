@@ -1,0 +1,4 @@
+import sys
+score = 0
+def mode_query
+if mode_query
