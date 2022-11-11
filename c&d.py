@@ -1,8 +1,16 @@
-import sys
+import random
 score = 0
-def mode =
-query question loop
-ask if you would like to play
-if no print socre and exit
-ask query
-if query == no: print the score
+list = ['aluminum foil','rubber','water','copper','silicone','a PVC pipe','paper','glass']
+'aluminum foil' == 'conductor'
+'rubber' == 'insulator'
+'water' == 'insulator'
+'copper' == 'conductor'
+'silicone' == 'insulator'
+'a PVC pipe' =='insulator'
+'paper' == 'insulator'
+'glass' == 'insulator'
+node = random.choice(list)
+anwser = input("is {} a conductor or an insulator?".format(node))
+#haven't coded right
+if anwser == True: score =+ 1
+print(score)
